@@ -1,0 +1,18 @@
+.admin-container {
+    width: 100%;
+    margin-top: 100px;
+    display: grid;
+    grid: 55px / 1fr;
+    grid-template-areas: 
+        "menu",
+        "content";
+    min-height: 100vh;
+
+    &__menu {
+        grid-area: menu;
+    }
+
+    &__content {
+        grid-area: content;
+    }
+}
